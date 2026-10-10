@@ -1,0 +1,25 @@
+{
+    "champion_name": "LogisticRegression",
+    "best_cv_score": 0.9790640394088669,
+    "best_params": {
+        "classifier__C": 1.0,
+        "classifier__solver": "lbfgs"
+    },
+    "features": [
+        "alcohol",
+        "malic_acid",
+        "ash",
+        "alcalinity_of_ash",
+        "magnesium",
+        "total_phenols",
+        "flavanoids",
+        "nonflavanoid_phenols",
+        "proanthocyanins",
+        "color_intensity",
+        "hue",
+        "od280/od315_of_diluted_wines",
+        "proline"
+    ],
+    "target": "target",
+    "random_state": 42
+}
